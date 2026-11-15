@@ -16,6 +16,7 @@
 //
 // main.ts imports its own server and nothing else: no package, no Node built-in, no model call.
 
+// v2 rev
 import { createApp } from './lib/app.ts';
 
 const ENV_URL = (process.env.MAKEFUN_ENV_URL ?? '').replace(/\/+$/, '');

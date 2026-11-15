@@ -1,4 +1,5 @@
 // GitHub REST v3 surface under /api/v3.
+// v2 rev: rebuilt via write_file in a fresh agent session.
 
 import { ServerResponse } from 'node:http';
 import { DEFAULT_BRANCH, fileDiff } from './store.ts';
